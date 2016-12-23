@@ -1,0 +1,27 @@
+{
+  "name": "ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node_modules/mocha/bin/mocha",
+    "lint": "eslint server.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fawke/ci-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fawke/ci-test/issues"
+  },
+  "homepage": "https://github.com/Fawke/ci-test#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "express": "^4.14.0",
+    "mocha": "^3.2.0"
+  }
+}
